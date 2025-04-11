@@ -5,7 +5,7 @@ import {cardRegex, cvcRegex, expirationDateRegex} from "@/lib/constants/paymentF
 
 
 export const validateForm = (cardNumber:string,expirationDate:string,cvc:string,setErrors: Dispatch<SetStateAction<IPaymentForm>>) => {
-    let formErrors:IPaymentForm = {
+    const formErrors:IPaymentForm = {
         cardNumber:"",
         expirationDate:"",
         cvc:"",

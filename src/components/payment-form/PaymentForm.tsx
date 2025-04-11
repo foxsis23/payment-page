@@ -99,7 +99,7 @@ export const PaymentForm = () =>{
                            ): "Start Trial"}
                        </button>
                        <p className="border border-gray-300 px-4 py-3 rounded-lg text-xs text-gray-500">
-                           You'll have your <span className="font-bold">Plan Pro during 1 year.</span> After this period of time, your plan will be <span className="font-bold">automatically renewed</span> with its original price without any discounts applied.
+                           You`&apos;ll have your <span className="font-bold">Plan Pro during 1 year.</span> After this period of time, your plan will be <span className="font-bold">automatically renewed</span> with its original price without any discounts applied.
                        </p>
                    </div>
 
