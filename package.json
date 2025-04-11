@@ -1,5 +1,4 @@
 {
-  "homepage": "https://foxsis23.github.io/payment-form",
   "name": "payment-page",
   "version": "0.1.0",
   "private": true,
@@ -7,12 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "next": "14.2.28",
     "react": "^18",
     "react-dom": "^18"
